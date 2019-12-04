@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-02T06:06:25Z" name="Suite" finished-at="2019-12-02T06:06:25Z" duration-ms="39">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.SecondDemo()[pri:0, instance:testPackage.Day1@279fedbd]" name="SecondDemo" class="testPackage.Day1"/>
+        <method signature="Day3.mobilesigninHome()[pri:0, instance:testPackage.Day3@b3ca52e]" name="mobilesigninHome" class="testPackage.Day3"/>
+        <method signature="Day4.apiloginCar()[pri:0, instance:testPackage.Day4@45c7e403]" name="apiloginCar" class="testPackage.Day4"/>
+        <method signature="Day4.mobileloginCar()[pri:0, instance:testPackage.Day4@45c7e403]" name="mobileloginCar" class="testPackage.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2019-12-02T06:06:25Z" name="Regression" finished-at="2019-12-02T06:06:25Z" duration-ms="39">
+      <class name="testPackage.Day1">
+        <test-method signature="SecondDemo()[pri:0, instance:testPackage.Day1@279fedbd]" started-at="2019-12-02T06:06:25Z" name="SecondDemo" finished-at="2019-12-02T06:06:25Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDemo -->
+      </class> <!-- testPackage.Day1 -->
+      <class name="testPackage.Day3">
+        <test-method signature="mobilesigninHome()[pri:0, instance:testPackage.Day3@b3ca52e]" started-at="2019-12-02T06:06:25Z" name="mobilesigninHome" finished-at="2019-12-02T06:06:25Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilesigninHome -->
+      </class> <!-- testPackage.Day3 -->
+      <class name="testPackage.Day4">
+        <test-method signature="apiloginCar()[pri:0, instance:testPackage.Day4@45c7e403]" started-at="2019-12-02T06:06:25Z" name="apiloginCar" finished-at="2019-12-02T06:06:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginCar -->
+        <test-method signature="mobileloginCar()[pri:0, instance:testPackage.Day4@45c7e403]" started-at="2019-12-02T06:06:25Z" name="mobileloginCar" finished-at="2019-12-02T06:06:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileloginCar -->
+      </class> <!-- testPackage.Day4 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
